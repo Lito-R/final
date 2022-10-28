@@ -7,9 +7,4 @@ class Tarea(models.Model):
     def __str__(self):
         return self.tarea
 
-class Actividad(models.Model):
-    actividad = models.CharField(max_length=100)
-    
-    def __str__(self):
-        return self.actividad
     
